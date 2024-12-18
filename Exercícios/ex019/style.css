@@ -1,0 +1,36 @@
+/*Configurações globais*/
+/*
+   em HTML é id = em css é #( ´so pode um elemento)
+   em HTMK é class = css é .(pode vários elementos)
+*/
+@charset "UTF-8";
+
+body{
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #1e402f;
+}
+h1#principal{
+    text-align: center;
+    background-color:#3c805e;
+    color: white;
+}
+h2{
+    color: #3c805e;
+}
+/*Para configuras as class do HTML utilizamos . no CSS*/
+.basico{
+    color: #3c805e;
+    font-weight: bold;
+}
+.intermediário{
+    color: #80793c;
+}
+.avançado{
+    color: #803c3c;
+}
+.destaque{
+    background-color: #c5c56070;
+}
