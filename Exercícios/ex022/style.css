@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+div.quadrado{
+    width: 300px;
+    height: 300px;
+    border: 1px;
+    border: solid;
+    border-color: black;
+}
