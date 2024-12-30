@@ -8,8 +8,8 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(to right, yellow, blue, green);
-
+            background-color: rgba(255, 127, 80, 0.797);
+            /*background-image: linear-gradient(to right, yellow, blue, green);*/
         }
 
         caption {
@@ -21,6 +21,7 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
 
         th {
@@ -34,6 +35,15 @@
         td {
             border: 1px solid black;
             text-align: center;
+        }
+        thead > tr >th{
+            position:static;
+            top: -1px;
+            background-color:lightgray ;
+        }
+        
+        tbody>tr:nth-child(2n) {
+            background-color: aqua;
         }
 
         tfoot {
@@ -64,22 +74,49 @@
         <thead>
             <caption>População das Unidades Federativas do Brasil</caption>
             <tr>
-                <th scope="col">Ranque</th>
                 <th scope="col">Estado</th>
                 <th scope="col">População</th>
             </tr>
         </thead>
 
-        <tbody></tbody>
-        <tr>
-            <td>01</td>
-            <td>São Paulo</td>
-            <td>45 973 190</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 973 190</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td>14.873.064</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td>11.433.957</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11.377.239</td>
+            </tr>
+        </tbody>
         <tfoot>
-            <th cope="row"">01</th>
-            <th scope=" row">Total de Habitantes</th>
-            <td>00 000 000</td>
+        
+                <th scope=" row">Total de Habitantes
+                </th>
+                <td>00 000 000</td>
+            
+
         </tfoot>
     </table>
 </body>
