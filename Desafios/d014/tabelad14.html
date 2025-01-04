@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando a tabela do desefio 14</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 50px;
+            padding: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead {
+            border: 1px solid black;
+            background-color: grey;
+            color: white;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        #mediaexatas{
+            background-color: gray;
+        }
+
+        #mediaHuma{
+            background-color: gray;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabela do desefio 014</h1>
+    <table>
+        <caption>
+            Sistema de analise de notas de disciplinas escolares
+        </caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Àrea</th>
+                <td rowspan="2">Disciplinas</td>
+                <td colspan="2">Notas</td>
+                <td rowspan="2">Média</td>
+
+            <tr>
+                <td>Nota1</td>
+                <td>nota2</td>
+            </tr>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            <tr>
+                <td>Fisíca</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quínica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            </tr>
+            </tr>
+            <tr id="mediaexatas">
+                <th colspan="4">Medias de Exatas</th>
+                <td>0.0</td>
+            </tr>
+            <tr >
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr id="mediaHuma">
+                <th colspan="4">Média das Huma</th>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</body>
+
+</html>
