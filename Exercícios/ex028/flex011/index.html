@@ -15,18 +15,99 @@
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 250px;
+            flex-basis: 200px;
+        }
+        div#cxa{
             flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div#cxB{
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div#cxC{
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div.conteiner2{
+            background-color: lightsalmon;
+            display: flex;
+            margin-top: 20px;
+            flex-flow: row nowrap;
+        }
+
+        div.item2{
+            background-color: rgb(230, 229, 173);
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 200px;
+        }
+
+        div#cxa2{
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div#cxB2{
+            flex-shrink: 0;
+            flex-grow: 2;
+        }
+
+        div#cxC2{
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+         div.conteiner3{
+            background-color: lightsalmon;
+            display: flex;
+            margin-top: 20px;
+            flex-flow: row nowrap;
+        }
+
+        div.item3{
+            background-color: rgb(81, 226, 52);
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 200px;
+        }
+
+        div#cxa3{
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div#cxB3{
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div#cxC3{
+            flex-shrink: 2;
             flex-grow: 1;
-           
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
+        <div class="item" id="cxA">A</div>
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
+    </div>
+
+    <div class="conteiner2">
+        <div class="item2" id="cxA2">D</div>
+        <div class="item2" id="cxB2">E</div>
+        <div class="item2" id="cxC2">F</div>
+    </div>
+
+     <div class="conteiner3">
+        <div class="item3" id="cxA2">G</div>
+        <div class="item3" id="cxB2">H</div>
+        <div class="item3" id="cxC2">I</div>
     </div>
 </body>
 </html>
