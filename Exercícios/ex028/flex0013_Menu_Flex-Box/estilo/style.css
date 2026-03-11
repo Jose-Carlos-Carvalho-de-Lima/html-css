@@ -15,14 +15,15 @@ header{
     align-items: center;
 }
 header > h1{
-    border: 1px dotted black ;
+    /*border: 1px dotted black ;*/
     /*flex-grow: 0px;
     flex-shrink: 0px;
     flex-basis: 200px;*/
     flex: 0 0 200px;
+    text-shadow: 2px 2px 1px black;
 }
 header > nav{
-    border: 1px dotted black ;
+    /*border: 1px dotted black ;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
