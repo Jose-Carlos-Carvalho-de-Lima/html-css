@@ -9,7 +9,40 @@ header > h1 {
 header > nav > a {
     width: 90vw;
 }
+header > nav#itens{
+    display: none;
+}
+header > nav#itens > a{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 90vw;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
+}
+header > span#burguer{
+    border: 1px dotted black ;
+    display:flex;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+header > span#burguer:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+header{
+    background-color: blue;
+}
 body{
-    background-color: red;
+    background-color: darkgrey;
 }

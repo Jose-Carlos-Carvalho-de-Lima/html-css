@@ -22,6 +22,9 @@ header > h1{
     flex: 0 0 200px;
     text-shadow: 2px 2px 1px black;
 }
+header > span#burguer{
+    display: none;
+}
 header > nav{
     /*border: 1px dotted black ;*/
     display: flex;
@@ -58,4 +61,19 @@ main{
 main > p{
     margin: 2px;
     padding: 10px;
+}
+  /* --- CONFIGURAÇÃO PARA TELAS GRANDES (DESKTOP) --- */
+@media screen and (min-width: 619px) {
+    header > span#burguer {
+        display: none !important; /* Esconde o ícone do menu no PC */
+    }
+
+    header > nav#itens {
+        display: flex !important; /* Força o menu a aparecer sempre no PC */
+    }
+
+    header > nav#itens > a {
+        width: auto; /* Ajusta a largura dos botões para o tamanho do texto */
+        display: inline-block;
+    }
 }
