@@ -24,6 +24,37 @@ p,h1,h2{
 section.flex-content{
     padding: 20px;
     background-color: rgb(235, 250, 253);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+article.text-media{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.media-text{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+article > div.text{
+    flex: 1 1 500px;
+
+    border: 2px dashed blue;
+}
+
+article > div.media{
+    flex-wrap: 1 0 500px;
+    border: 2px dashed yellow;
+}
+
+div.media > img{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
 }
 
 section.normal{
